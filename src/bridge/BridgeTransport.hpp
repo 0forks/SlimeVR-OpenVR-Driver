@@ -70,7 +70,7 @@ static std::string getBridgePath() {
  * 
  * Client or Server connection handling is implemented by extending this class.
  * 
- * This class provides a set of methods to start, stop an IO thread and send messages over a named pipe or unix socket
+ * This class provides a set of methods to start, stop an IO thread, send messages over a named pipe or unix socket
  * and is abstracted through `libuv`.
  * 
  * When a message is received and parsed from the pipe, the messageCallback function passed in the constructor is called
