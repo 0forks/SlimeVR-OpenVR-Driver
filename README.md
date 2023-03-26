@@ -43,3 +43,5 @@ To build the project with VSCode you need to install two things: [vcpkg](https:/
 After installing vcpkg if you're on Windows, you need to run `vcpkg integrate install` command from the vcpkg folder to integrate it for VSCode.
 
 For other systems and IDEs instructions are not available as of now, contributions are welcome.
+
+Packages are pinned to a vcpkg registry hash, if you want to update packages (`vcpkg.json`->`builtin-baseline`), use [`vcpkg/vcpkg x-update-baseline`](https://learn.microsoft.com/en-us/vcpkg/commands/update-baseline).
